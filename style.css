@@ -1,0 +1,93 @@
+
+div{float:left;}
+.loader{
+  
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:10px;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 1s linear infinite;
+}
+.loader2{
+ 
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:0%;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 3s steps(2,1|166) infinite;
+}
+.loader3{
+
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:0%;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 1s ease infinite;
+}
+.loader4{
+ 
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:0%;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 1s ease-out infinite;
+}
+.loader5{
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:0%;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 1s ease-in-out infinite;
+}
+.loader6{
+
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:0%;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 1s cubic-bezier(0,1,0,1) infinite;
+}
+.loader7{
+ 
+  height:100px;
+  width:100px;
+  margin-top:5px;
+  margin-left:5%;
+  margin-right:0%;
+  border:10px solid skyblue;
+  border-radius:50%;
+  border-left:10px solid white;
+  animation:ciecle 1s ease-in infinite;
+}
+
+@keyframes ciecle{
+  from{transform:rotate(0deg);}
+  from{transform:rotate(360deg);}
+}
+#box{border:2px solid black;width:170px;
+
+
